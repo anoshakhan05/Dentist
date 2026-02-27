@@ -240,7 +240,7 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-3 md:gap-8">
             <TestimonialCard
               name="Michael T."
               treatment="Invisalign & Whitening"
@@ -257,6 +257,24 @@ export default function Home() {
               name="David H."
               treatment="Dental Implants"
               quote="The 3D scanning technology they use made the implant process seamless and painless. Highly professional staff and beautiful, modern facilities."
+              rating={5}
+            />
+            <TestimonialCard
+              name="Sarah M."
+              treatment="General Checkup"
+              quote="From the moment I walked in, I felt at ease. The staff is so welcoming and Dr. Thorne is incredibly thorough and gentle. Best dental experience ever."
+              rating={5}
+            />
+            <TestimonialCard
+              name="James L."
+              treatment="Root Canal"
+              quote="I was terrified of having a root canal, but they made sure I was completely numb and comfortable the entire time. I barely felt a thing!"
+              rating={5}
+            />
+            <TestimonialCard
+              name="Anita K."
+              treatment="Cosmetic Bonding"
+              quote="Quick, painless, and the results are flawless. They fixed my chipped tooth in one short visit and it perfectly matches the rest of my teeth."
               rating={5}
             />
           </div>
