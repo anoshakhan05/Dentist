@@ -31,8 +31,8 @@ export default function Home() {
                 <Sparkles className="h-4 w-4 text-accent" />
                 <span className="text-sm font-medium text-foreground/80">Premium Dental Care in Health City</span>
               </div>
-              <h1 className="text-5xl md:text-7xl font-bold tracking-tight text-primary mb-6 leading-[1.1]">
-                Your Journey to a <br />
+              <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight text-primary mb-6 leading-[1.1]">
+                Precision Care for a <br />
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">Confident Smile.</span>
               </h1>
               <p className="text-lg md:text-xl text-foreground/70 mb-10 max-w-2xl leading-relaxed">
