@@ -62,17 +62,29 @@ export function Hero3D() {
                 className="relative z-10 w-full max-w-[320px] lg:max-w-[450px] aspect-square drop-shadow-2xl"
             >
                 <div className="relative w-full h-full rounded-full flex items-center justify-center transform-gpu">
-                    {/* Using an abstract/macro representation of dental technology */}
-                    <div className="relative w-[80%] h-[80%] rounded-[4rem] overflow-hidden border border-white/30 shadow-[0_0_50px_rgba(255,255,255,0.2)] bg-white/5 backdrop-blur-md group">
+                    {/* 3D Animated Tooth */}
+                    <motion.div
+                        className="relative w-[70%] h-[70%] drop-shadow-2xl flex items-center justify-center group"
+                        animate={{
+                            y: [-20, 20, -20],
+                            rotateZ: [-3, 3, -3]
+                        }}
+                        transition={{
+                            duration: 6,
+                            repeat: Infinity,
+                            ease: "easeInOut"
+                        }}
+                    >
+                        {/* Glow effect behind the tooth */}
+                        <div className="absolute inset-0 bg-secondary/20 blur-3xl rounded-full scale-[1.5] group-hover:scale-125 transition-transform duration-700"></div>
+
                         <Image
-                            src="https://images.unsplash.com/photo-1606811841689-23dfddce3e95?q=80&w=1000&auto=format&fit=crop"
-                            alt="Cinematic 3D Scroll Visualization"
+                            src="/tooth.png"
+                            alt="3D Animated Tooth"
                             fill
-                            className="object-cover group-hover:scale-110 transition-transform duration-1000"
+                            className="object-contain drop-shadow-[0_20px_50px_rgba(15,23,42,0.3)] group-hover:scale-110 group-hover:-translate-y-4 transition-all duration-700"
                         />
-                        <div className="absolute inset-0 bg-gradient-to-tr from-secondary/20 via-transparent to-primary/20 mix-blend-overlay"></div>
-                        <div className="absolute inset-0 ring-1 ring-inset ring-white/20 rounded-[4rem]"></div>
-                    </div>
+                    </motion.div>
                 </div>
             </motion.div>
 
