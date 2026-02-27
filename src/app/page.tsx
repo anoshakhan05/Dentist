@@ -10,6 +10,7 @@ import {
   Sparkles, CheckCircle2, Phone, Calendar,
   Activity, Smile
 } from "lucide-react";
+import { Hero3D } from "@/components/blocks/hero-3d";
 
 export default function Home() {
   return (
@@ -24,44 +25,51 @@ export default function Home() {
         </div>
 
         <Container className="relative z-10">
-          <div className="max-w-3xl">
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/80 backdrop-blur border border-border mt-8 mb-6 shadow-sm">
-              <Sparkles className="h-4 w-4 text-accent" />
-              <span className="text-sm font-medium text-foreground/80">Premium Dental Care in Health City</span>
-            </div>
-            <h1 className="text-5xl md:text-7xl font-bold tracking-tight text-primary mb-6 leading-[1.1]">
-              Your Journey to a <br />
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">Confident Smile.</span>
-            </h1>
-            <p className="text-lg md:text-xl text-foreground/70 mb-10 max-w-2xl leading-relaxed">
-              Experience world-class cosmetic and general dentistry in a calming, state-of-the-art environment. We combine advanced 3D technology with a compassionate touch.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 mb-12">
-              <Button size="lg" asChild className="group">
-                <Link href="/book-appointment">
-                  Book Your Visit
-                  <ArrowRight className="ml-2 h-4 w-4 transform group-hover:translate-x-1 transition-transform" />
-                </Link>
-              </Button>
-              <Button size="lg" variant="outline" asChild>
-                <Link href="/services">Explore Services</Link>
-              </Button>
+          <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
+            <div className="max-w-3xl relative z-20">
+              <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/80 backdrop-blur border border-border mt-8 mb-6 shadow-sm">
+                <Sparkles className="h-4 w-4 text-accent" />
+                <span className="text-sm font-medium text-foreground/80">Premium Dental Care in Health City</span>
+              </div>
+              <h1 className="text-5xl md:text-7xl font-bold tracking-tight text-primary mb-6 leading-[1.1]">
+                Your Journey to a <br />
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">Confident Smile.</span>
+              </h1>
+              <p className="text-lg md:text-xl text-foreground/70 mb-10 max-w-2xl leading-relaxed">
+                Experience world-class cosmetic and general dentistry in a calming, state-of-the-art environment. We combine advanced 3D technology with a compassionate touch.
+              </p>
+              <div className="flex flex-col sm:flex-row gap-4 mb-12">
+                <Button size="lg" asChild className="group h-14 text-lg">
+                  <Link href="/book-appointment">
+                    Book Your Visit
+                    <ArrowRight className="ml-2 h-4 w-4 transform group-hover:translate-x-1 transition-transform" />
+                  </Link>
+                </Button>
+                <Button size="lg" variant="outline" asChild className="h-14 text-lg bg-white/50 backdrop-blur">
+                  <Link href="/services">Explore Services</Link>
+                </Button>
+              </div>
+
+              <div className="flex items-center gap-8 border-t border-border/60 pt-8">
+                <div>
+                  <div className="text-3xl font-bold text-primary mb-1">4.9/5</div>
+                  <div className="flex gap-1 mb-1">
+                    {[1, 2, 3, 4, 5].map(i => <Star key={i} className="h-4 w-4 fill-accent text-accent" />)}
+                  </div>
+                  <div className="text-sm text-muted-foreground">From 500+ Patients</div>
+                </div>
+                <div className="h-12 w-px bg-border"></div>
+                <div>
+                  <div className="text-3xl font-bold text-primary mb-1">15+</div>
+                  <div className="text-sm font-medium text-foreground/80 mb-1">Years Experience</div>
+                  <div className="text-sm text-muted-foreground">Trusted Excellence</div>
+                </div>
+              </div>
             </div>
 
-            <div className="flex items-center gap-8 border-t border-border/60 pt-8">
-              <div>
-                <div className="text-3xl font-bold text-primary mb-1">4.9/5</div>
-                <div className="flex gap-1 mb-1">
-                  {[1, 2, 3, 4, 5].map(i => <Star key={i} className="h-4 w-4 fill-accent text-accent" />)}
-                </div>
-                <div className="text-sm text-muted-foreground">From 500+ Patients</div>
-              </div>
-              <div className="h-12 w-px bg-border"></div>
-              <div>
-                <div className="text-3xl font-bold text-primary mb-1">15+</div>
-                <div className="text-sm font-medium text-foreground/80 mb-1">Years Experience</div>
-                <div className="text-sm text-muted-foreground">Trusted Excellence</div>
-              </div>
+            {/* Right Column: 3D Cinematic Animation */}
+            <div className="relative w-full h-full lg:block">
+              <Hero3D />
             </div>
           </div>
         </Container>

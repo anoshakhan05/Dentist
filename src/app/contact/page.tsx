@@ -4,6 +4,7 @@ import { useState } from "react";
 import { Container, Section } from "@/components/ui/container";
 import { Button } from "@/components/ui/button";
 import { MapPin, Phone, Mail, Clock, Send } from "lucide-react";
+import Image from "next/image";
 
 export default function Contact() {
     const [isSubmitting, setIsSubmitting] = useState(false);
@@ -73,11 +74,17 @@ export default function Contact() {
                             </div>
 
                             {/* Map Placeholder */}
-                            <div className="w-full h-80 bg-muted/50 rounded-3xl border border-border/50 flex items-center justify-center relative overflow-hidden group">
-                                <div className="absolute inset-0 bg-primary/5 transition-colors group-hover:bg-transparent"></div>
-                                <div className="text-center">
-                                    <MapPin className="h-10 w-10 text-muted-foreground/50 mx-auto mb-2" />
-                                    <span className="text-muted-foreground font-medium">Interactive Map Embed Placeholder</span>
+                            <div className="w-full h-80 rounded-3xl border border-border/50 relative overflow-hidden group">
+                                <Image
+                                    src="https://images.unsplash.com/photo-1524661135-423995f22d0b?q=80&w=2074&auto=format&fit=crop"
+                                    alt="Clinic Location Map"
+                                    fill
+                                    className="object-cover transition-transform duration-700 group-hover:scale-105"
+                                />
+                                <div className="absolute inset-0 bg-primary/10 transition-colors group-hover:bg-transparent"></div>
+                                <div className="absolute bottom-4 left-4 bg-white/90 backdrop-blur text-primary px-4 py-2 rounded-xl shadow-sm font-medium text-sm flex items-center gap-2">
+                                    <MapPin className="h-4 w-4 text-secondary" />
+                                    Get Directions
                                 </div>
                             </div>
                         </div>
