@@ -68,9 +68,9 @@ export function Hero3D() {
                             src="https://images.unsplash.com/photo-1606811841689-23dfddce3e95?q=80&w=1000&auto=format&fit=crop"
                             alt="Cinematic 3D Scroll Visualization"
                             fill
-                            className="object-cover mix-blend-overlay brightness-110 contrast-125 group-hover:scale-110 transition-transform duration-1000"
+                            className="object-cover group-hover:scale-110 transition-transform duration-1000"
                         />
-                        <div className="absolute inset-0 bg-gradient-to-tr from-secondary/50 via-transparent to-primary/50 mix-blend-color-dodge"></div>
+                        <div className="absolute inset-0 bg-gradient-to-tr from-secondary/20 via-transparent to-primary/20 mix-blend-overlay"></div>
                         <div className="absolute inset-0 ring-1 ring-inset ring-white/20 rounded-[4rem]"></div>
                     </div>
                 </div>
