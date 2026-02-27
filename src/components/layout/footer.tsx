@@ -10,7 +10,7 @@ export function Footer() {
                     <div className="space-y-4">
                         <Link href="/" className="inline-block">
                             <span className="text-2xl font-bold tracking-tight text-white">
-                                Lumina<span className="text-secondary">Dental</span>
+                                High <span className="text-secondary">Smile</span>
                             </span>
                         </Link>
                         <p className="text-primary-foreground/70 max-w-sm">
@@ -79,14 +79,14 @@ export function Footer() {
                             <li>123 Premium Medical Dr.</li>
                             <li>Suite 200, Health City</li>
                             <li>Phone: (555) 123-4567</li>
-                            <li>Email: hello@luminadental.com</li>
+                            <li>Email: hello@highsmile.com</li>
                         </ul>
                     </div>
                 </div>
 
                 <div className="border-t border-primary-foreground/10 mt-12 pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
                     <p className="text-sm text-primary-foreground/60">
-                        &copy; {new Date().getFullYear()} Lumina Dental. All rights reserved.
+                        &copy; {new Date().getFullYear()} High Smile. All rights reserved.
                     </p>
                     <div className="flex gap-4 text-sm text-primary-foreground/60">
                         <Link href="#" className="hover:text-white transition-colors">Privacy Policy</Link>

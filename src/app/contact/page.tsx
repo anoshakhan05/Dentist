@@ -24,7 +24,7 @@ export default function Contact() {
             <section className="relative overflow-hidden bg-primary/5 pt-24 pb-12 md:pt-32 md:pb-16 text-center">
                 <Container className="max-w-3xl">
                     <h1 className="text-4xl md:text-6xl font-bold text-primary mb-6">
-                        Contact <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">Lumina Dental</span>
+                        Contact <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">High Smile</span>
                     </h1>
                     <p className="text-lg md:text-xl text-foreground/70 leading-relaxed">
                         We're here to answer any questions you may have about your dental health or our services.
@@ -67,7 +67,7 @@ export default function Contact() {
                                         </div>
                                         <div>
                                             <h4 className="text-xl font-bold text-foreground mb-1">Email Address</h4>
-                                            <p className="text-muted-foreground">hello@luminadental.com<br />appointments@luminadental.com</p>
+                                            <p className="text-muted-foreground">hello@highsmile.com<br />appointments@highsmile.com</p>
                                         </div>
                                     </div>
                                 </div>
@@ -77,7 +77,7 @@ export default function Contact() {
                             <div className="w-full h-80 rounded-3xl border border-border/50 relative overflow-hidden group">
                                 <Image
                                     src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?q=80&w=2053&auto=format&fit=crop"
-                                    alt="Lumina Dental Clinic Exterior"
+                                    alt="High Smile Clinic Exterior"
                                     fill
                                     className="object-cover transition-transform duration-700 group-hover:scale-105"
                                 />

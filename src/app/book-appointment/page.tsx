@@ -69,7 +69,7 @@ export default function BookAppointment() {
                                         </div>
                                         <h2 className="text-3xl font-bold text-primary mb-4">Request Sent Successfully!</h2>
                                         <p className="text-lg text-muted-foreground mb-8 max-w-md mx-auto">
-                                            Thank you for choosing Lumina Dental. One of our scheduling coordinators will contact you shortly to confirm your exact appointment time.
+                                            Thank you for choosing High Smile. One of our scheduling coordinators will contact you shortly to confirm your exact appointment time.
                                         </p>
                                         <Button onClick={() => setIsSuccess(false)} variant="outline">
                                             Make Another Request

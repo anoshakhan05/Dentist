@@ -33,7 +33,7 @@ export default function About() {
                         <div className="order-1 lg:order-2">
                             <h2 className="text-3xl md:text-5xl font-bold text-primary mb-6">Our Philosophy</h2>
                             <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-                                For over 15 years, Lumina Dental has been Health City's premier destination for cosmetic and restorative dentistry.
+                                For over 15 years, High Smile has been Health City's premier destination for cosmetic and restorative dentistry.
                                 We believe that a beautiful, healthy smile is fundamentally linked to your overall well-being and confidence.
                             </p>
                             <p className="text-lg text-muted-foreground mb-8 leading-relaxed">

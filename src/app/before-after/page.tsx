@@ -36,7 +36,7 @@ export default function BeforeAfter() {
                         Smile <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">Transformations</span>
                     </h1>
                     <p className="text-lg md:text-xl text-foreground/70 leading-relaxed mb-8">
-                        Real results from actual Lumina Dental patients. See the difference our premium care makes.
+                        Real results from actual High Smile patients. See the difference our premium care makes.
                     </p>
                     <div className="flex flex-wrap justify-center gap-2">
                         <Button variant="secondary" size="sm" className="rounded-full">All Cases</Button>

@@ -136,7 +136,7 @@ export default function Home() {
         <Container>
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div>
-              <h2 className="text-3xl md:text-5xl font-bold mb-6 text-white">The Lumina Difference</h2>
+              <h2 className="text-3xl md:text-5xl font-bold mb-6 text-white">The High Smile Difference</h2>
               <p className="text-primary-foreground/80 text-lg mb-8 leading-relaxed">
                 We've reimagined the dental experience. No more clinical anxiety or rushed appointments. Just expert care in a setting designed for your absolute serenity.
               </p>
@@ -236,7 +236,7 @@ export default function Home() {
           <div className="text-center max-w-2xl mx-auto mb-16">
             <h2 className="text-3xl md:text-5xl font-bold text-primary mb-4">Patient Stories</h2>
             <p className="text-lg text-muted-foreground">
-              Don&apos;t just take our word for it. Hear from our patients who have experienced the Lumina difference.
+              Don&apos;t just take our word for it. Hear from our patients who have experienced the High Smile difference.
             </p>
           </div>
 
