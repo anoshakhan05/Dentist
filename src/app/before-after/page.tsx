@@ -1,9 +1,14 @@
+"use client";
+
 import Image from "next/image";
 import Link from "next/link";
+import { useState } from "react";
 import { Container, Section } from "@/components/ui/container";
 import { Button } from "@/components/ui/button";
 
 export default function BeforeAfter() {
+    const [filter, setFilter] = useState("All Cases");
+
     const cases = [
         {
             title: "Full Arch Restoration",
@@ -28,6 +33,12 @@ export default function BeforeAfter() {
         }
     ];
 
+    const categories = ["All Cases", "Cosmetic", "Implants", "Orthodontics"];
+
+    const filteredCases = filter === "All Cases"
+        ? cases
+        : cases.filter(c => c.category === filter);
+
     return (
         <>
             <section className="relative overflow-hidden bg-primary/5 pt-24 pb-20 md:pt-32 md:pb-32">
@@ -39,10 +50,17 @@ export default function BeforeAfter() {
                         Real results from actual High Smile patients. See the difference our premium care makes.
                     </p>
                     <div className="flex flex-wrap justify-center gap-2">
-                        <Button variant="secondary" size="sm" className="rounded-full">All Cases</Button>
-                        <Button variant="outline" size="sm" className="rounded-full">Cosmetic</Button>
-                        <Button variant="outline" size="sm" className="rounded-full">Implants</Button>
-                        <Button variant="outline" size="sm" className="rounded-full">Orthodontics</Button>
+                        {categories.map(category => (
+                            <Button
+                                key={category}
+                                variant={filter === category ? "secondary" : "outline"}
+                                size="sm"
+                                className="rounded-full"
+                                onClick={() => setFilter(category)}
+                            >
+                                {category}
+                            </Button>
+                        ))}
                     </div>
                 </Container>
             </section>
@@ -50,7 +68,7 @@ export default function BeforeAfter() {
             <Section className="bg-white">
                 <Container>
                     <div className="space-y-20">
-                        {cases.map((c, i) => (
+                        {filteredCases.map((c, i) => (
                             <div key={i} className="flex flex-col lg:flex-row gap-8 items-center border border-border/50 rounded-3xl p-6 md:p-10 shadow-sm bg-muted/10">
                                 <div className="w-full lg:w-2/3 grid grid-cols-2 gap-4">
                                     <div className="space-y-2">
