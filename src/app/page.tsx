@@ -192,7 +192,7 @@ export default function Home() {
           <div className="grid lg:grid-cols-2 gap-16 items-center flex-col-reverse">
             <div className="order-2 lg:order-1 relative h-[400px] lg:h-[600px] rounded-3xl overflow-hidden shadow-sm">
               <Image
-                src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?q=80&w=2070&auto=format&fit=crop"
+                src="https://images.unsplash.com/photo-1527613426441-4da17471b66d?q=80&w=2070&auto=format&fit=crop"
                 alt="Dr. Sarah Jenkins"
                 fill
                 sizes="(max-width: 768px) 100vw, 50vw"
