@@ -9,22 +9,22 @@ export default function BeforeAfter() {
             title: "Full Arch Restoration",
             category: "Implants",
             description: "Complete upper arch rehabilitation using implant-supported porcelain bridge.",
-            beforeImg: "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?q=80&w=800&auto=format&fit=crop",
-            afterImg: "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?q=80&w=800&auto=format&fit=crop"
+            beforeImg: "https://images.unsplash.com/photo-1598256989932-5a9e32049ddc?q=80&w=800&auto=format&fit=crop",
+            afterImg: "https://images.unsplash.com/photo-1630138354817-4958ce94572f?q=80&w=800&auto=format&fit=crop"
         },
         {
             title: "Porcelain Veneers",
             category: "Cosmetic",
             description: "8 custom porcelain veneers to correct discoloration and close diastemas.",
-            beforeImg: "https://images.unsplash.com/photo-1590650949437-0238e83ca545?q=80&w=800&auto=format&fit=crop",
-            afterImg: "https://images.unsplash.com/photo-1610448109338-2ce16474df61?q=80&w=800&auto=format&fit=crop"
+            beforeImg: "https://images.unsplash.com/photo-1606265752439-1f18756aa5ca?q=80&w=800&auto=format&fit=crop",
+            afterImg: "https://images.unsplash.com/photo-1606265752496-e1af354bc7b9?q=80&w=800&auto=format&fit=crop"
         },
         {
             title: "Invisalign Treatment",
             category: "Orthodontics",
             description: "14-month clear aligner therapy to resolve severe crowding.",
-            beforeImg: "https://images.unsplash.com/photo-1598444390076-24eb14db90ea?q=80&w=800&auto=format&fit=crop",
-            afterImg: "https://images.unsplash.com/photo-1579403164917-7e61e6cc475d?q=80&w=800&auto=format&fit=crop"
+            beforeImg: "https://images.unsplash.com/photo-1444855906560-63ce6656a81a?q=80&w=800&auto=format&fit=crop",
+            afterImg: "https://images.unsplash.com/photo-1589139268673-c82098b652da?q=80&w=800&auto=format&fit=crop"
         }
     ];
 

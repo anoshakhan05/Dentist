@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { Container, Section } from "@/components/ui/container";
 import { ServiceCard } from "@/components/blocks/service-card";
 import { Sparkles, Smile, Shield, Activity, Clock, Heart, Baby, CheckSquare } from "lucide-react";
@@ -7,13 +8,26 @@ export default function Services() {
     return (
         <>
             <section className="relative overflow-hidden bg-primary/5 pt-24 pb-20 md:pt-32 md:pb-32">
-                <Container className="relative z-10 text-center max-w-4xl">
+                <Container className="relative z-10 text-center max-w-4xl mb-12 lg:mb-16">
                     <h1 className="text-4xl md:text-6xl font-bold text-primary mb-6">
                         Comprehensive <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">Dental Services</span>
                     </h1>
                     <p className="text-lg md:text-xl text-foreground/70 leading-relaxed">
                         From preventative cleanings to full-arch restorations, our advanced techniques guarantee optimal results and absolute comfort.
                     </p>
+                </Container>
+                <Container className="relative z-10">
+                    <div className="relative w-full h-[400px] md:h-[500px] lg:h-[600px] rounded-3xl overflow-hidden shadow-2xl border border-border/50">
+                        <Image
+                            src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?q=80&w=2068&auto=format&fit=crop"
+                            alt="Premium Dental Services Room"
+                            fill
+                            className="object-cover"
+                            sizes="100vw"
+                            priority
+                        />
+                        <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent"></div>
+                    </div>
                 </Container>
             </section>
 

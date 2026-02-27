@@ -22,9 +22,9 @@ export default function About() {
             <Section className="bg-white">
                 <Container>
                     <div className="grid lg:grid-cols-2 gap-16 items-center flex-col-reverse">
-                        <div className="order-2 lg:order-1 relative h-[500px] rounded-3xl overflow-hidden">
+                        <div className="order-2 lg:order-1 relative h-[500px] rounded-3xl overflow-hidden shadow-md">
                             <Image
-                                src="https://images.unsplash.com/photo-1606811841689-23dfddce3e95?q=80&w=2070&auto=format&fit=crop"
+                                src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?q=80&w=2068&auto=format&fit=crop"
                                 alt="Clinic Interior"
                                 fill
                                 className="object-cover"
@@ -71,10 +71,10 @@ export default function About() {
                         <div className="bg-white rounded-2xl overflow-hidden shadow-sm border border-border/50 group">
                             <div className="relative h-[300px]">
                                 <Image
-                                    src="https://images.unsplash.com/photo-1594824436998-ef22a7f5a439?q=80&w=1964&auto=format&fit=crop"
+                                    src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?q=80&w=1964&auto=format&fit=crop"
                                     alt="Dr. Sarah Jenkins"
                                     fill
-                                    className="object-cover group-hover:scale-105 transition-transform duration-500"
+                                    className="object-cover group-hover:scale-105 transition-transform duration-500 object-top"
                                 />
                             </div>
                             <div className="p-6">
@@ -86,10 +86,10 @@ export default function About() {
                         <div className="bg-white rounded-2xl overflow-hidden shadow-sm border border-border/50 group">
                             <div className="relative h-[300px]">
                                 <Image
-                                    src="https://images.unsplash.com/photo-1622253692010-333f2da6031d?q=80&w=1964&auto=format&fit=crop"
+                                    src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?q=80&w=2070&auto=format&fit=crop"
                                     alt="Dr. Marcus Thorne"
                                     fill
-                                    className="object-cover group-hover:scale-105 transition-transform duration-500"
+                                    className="object-cover group-hover:scale-105 transition-transform duration-500 object-top"
                                 />
                             </div>
                             <div className="p-6">
@@ -101,10 +101,10 @@ export default function About() {
                         <div className="bg-white rounded-2xl overflow-hidden shadow-sm border border-border/50 group">
                             <div className="relative h-[300px]">
                                 <Image
-                                    src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?q=80&w=2070&auto=format&fit=crop"
+                                    src="https://images.unsplash.com/photo-1594824436998-ef22a7f5a439?q=80&w=2070&auto=format&fit=crop"
                                     alt="Dr. Emily Chen"
                                     fill
-                                    className="object-cover group-hover:scale-105 transition-transform duration-500"
+                                    className="object-cover group-hover:scale-105 transition-transform duration-500 object-top"
                                 />
                             </div>
                             <div className="p-6">

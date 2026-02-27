@@ -18,7 +18,7 @@ export default function Home() {
       {/* Hero Section */}
       <section className="relative overflow-hidden bg-gradient-to-b from-primary/5 to-transparent pt-24 pb-32 md:pt-32 md:pb-40">
         <div className="absolute inset-0 z-0">
-          <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1606811841689-23dfddce3e95?q=80&w=2070&auto=format&fit=crop')] bg-cover bg-center opacity-5"></div>
+          <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1629853313982-f08a5c378e9b?q=80&w=2070&auto=format&fit=crop')] bg-cover bg-center opacity-10"></div>
           {/* Subtle 3D Glass Orbs */}
           <div className="absolute top-20 left-10 w-72 h-72 bg-secondary/20 rounded-full blur-3xl"></div>
           <div className="absolute bottom-10 right-10 w-96 h-96 bg-accent/15 rounded-full blur-3xl"></div>
@@ -161,7 +161,7 @@ export default function Home() {
             <div className="relative">
               <div className="aspect-square rounded-3xl overflow-hidden relative">
                 <Image
-                  src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?q=80&w=2068&auto=format&fit=crop"
+                  src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?q=80&w=2070&auto=format&fit=crop"
                   alt="Modern Dental Clinic"
                   fill
                   sizes="(max-width: 768px) 100vw, 50vw"
@@ -190,9 +190,9 @@ export default function Home() {
       <Section className="bg-white">
         <Container>
           <div className="grid lg:grid-cols-2 gap-16 items-center flex-col-reverse">
-            <div className="order-2 lg:order-1 relative h-[400px] lg:h-[600px] rounded-3xl overflow-hidden">
+            <div className="order-2 lg:order-1 relative h-[400px] lg:h-[600px] rounded-3xl overflow-hidden shadow-sm">
               <Image
-                src="https://images.unsplash.com/photo-1594824436998-ef22a7f5a439?q=80&w=1964&auto=format&fit=crop"
+                src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?q=80&w=2070&auto=format&fit=crop"
                 alt="Dr. Sarah Jenkins"
                 fill
                 sizes="(max-width: 768px) 100vw, 50vw"
@@ -294,7 +294,7 @@ export default function Home() {
 
       {/* Final CTA */}
       <section className="bg-secondary text-secondary-foreground py-24 relative overflow-hidden">
-        <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?q=80&w=2070&auto=format&fit=crop')] bg-cover bg-center opacity-10 mix-blend-overlay"></div>
+        <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1538108149393-cebb47ac1136?q=80&w=2070&auto=format&fit=crop')] bg-cover bg-center opacity-10 mix-blend-overlay"></div>
         <Container className="relative z-10 text-center max-w-3xl">
           <h2 className="text-4xl md:text-6xl font-bold mb-6 text-white">Ready for Your New Smile?</h2>
           <p className="text-xl text-white/90 mb-10">

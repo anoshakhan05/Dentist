@@ -76,8 +76,8 @@ export default function Contact() {
                             {/* Map Placeholder */}
                             <div className="w-full h-80 rounded-3xl border border-border/50 relative overflow-hidden group">
                                 <Image
-                                    src="https://images.unsplash.com/photo-1524661135-423995f22d0b?q=80&w=2074&auto=format&fit=crop"
-                                    alt="Clinic Location Map"
+                                    src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?q=80&w=2053&auto=format&fit=crop"
+                                    alt="Lumina Dental Clinic Exterior"
                                     fill
                                     className="object-cover transition-transform duration-700 group-hover:scale-105"
                                 />
