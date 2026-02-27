@@ -196,7 +196,7 @@ export default function Home() {
                 alt="Dr. Sarah Jenkins"
                 fill
                 sizes="(max-width: 768px) 100vw, 50vw"
-                className="object-cover"
+                className="object-cover object-top"
               />
             </div>
             <div className="order-1 lg:order-2">

@@ -71,7 +71,7 @@ export default function About() {
                         <div className="bg-white rounded-2xl overflow-hidden shadow-sm border border-border/50 group">
                             <div className="relative h-[300px]">
                                 <Image
-                                    src="https://images.unsplash.com/photo-1594824436998-ef22a7f5a439?q=80&w=1964&auto=format&fit=crop"
+                                    src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?q=80&w=1964&auto=format&fit=crop"
                                     alt="Dr. Sarah Jenkins"
                                     fill
                                     className="object-cover group-hover:scale-105 transition-transform duration-500 object-top"
