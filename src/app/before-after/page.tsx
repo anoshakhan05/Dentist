@@ -16,15 +16,15 @@ export default function BeforeAfter() {
             title: "Porcelain Veneers",
             category: "Cosmetic",
             description: "8 custom porcelain veneers to correct discoloration and close diastemas.",
-            beforeImg: "https://images.unsplash.com/photo-1590650949437-0238e83ca545?q=80&w=800&auto=format&fit=crop",
-            afterImg: "https://images.unsplash.com/photo-1610448109338-2ce16474df61?q=80&w=800&auto=format&fit=crop"
+            beforeImg: "https://images.unsplash.com/photo-1599839619722-39751411ea63?q=80&w=800&auto=format&fit=crop",
+            afterImg: "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?q=80&w=800&auto=format&fit=crop"
         },
         {
             title: "Invisalign Treatment",
             category: "Orthodontics",
             description: "14-month clear aligner therapy to resolve severe crowding.",
-            beforeImg: "https://images.unsplash.com/photo-1598444390076-24eb14db90ea?q=80&w=800&auto=format&fit=crop",
-            afterImg: "https://images.unsplash.com/photo-1579403164917-7e61e6cc475d?q=80&w=800&auto=format&fit=crop"
+            beforeImg: "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?q=80&w=800&auto=format&fit=crop",
+            afterImg: "https://images.unsplash.com/photo-1628177142898-93e36e4e3a50?q=80&w=800&auto=format&fit=crop"
         }
     ];
 
